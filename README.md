@@ -1,2 +1,2 @@
-# testnewsite
+# SimpleExampleSite
 Created with CodeSandbox

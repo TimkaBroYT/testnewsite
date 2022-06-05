@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programming languages</title>
+    <script src="js/main.js" defer></script>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <footer class="footer">
+      <div class="container-footer">
+        <li class="about__info">
+          <button class="about__info-item">Главная</button>
+          <form
+            action="/about.html"
+            method="get"
+            target="_blank"
+            class="about__info-form"
+          >
+            <button class="about__info-item">Об авторе</button>
+          </form>
+          <form action="/kontakt.html" method="get" target="_blank">
+            <button class="about__info-item">Контакты</button>
+          </form>
+        </li>
+      </div>
+    </footer>
+
+    <main>
+      <div class="conainer-main">
+        <div class="slider">
+          <div class="item">
+            <img src="/img/c_coding.jpg" />
+          </div>
+
+          <div class="item">
+            <img src="/img/java_coding.png" />
+          </div>
+
+          <div class="item">
+            <img src="/img/python_coding.jpeg" />
+          </div>
+
+          <a class="previous" onclick="previousSlide()">&#10094;</a>
+          <a class="next" onclick="nextSlide()">&#10095;</a>
+        </div>
+      </div>
+
+      <div class="container-about">
+        <div class="navigaonusing">
+          <div class="gaonutosal">
+            <p><strong>Вопрос ответ</strong></p>
+            <div class="pesontedan">
+              <input id="pesontedan-one" type="checkbox" name="pesontedans" />
+              <label for="pesontedan-one">Зачем нужны ЯП?</label>
+              <div class="pesontedan-content">
+                <p>
+                  Язык программирования предназначен для написания компьютерных
+                  программ, которые представляют собой набор правил, позволяющих
+                  компьютеру выполнить тот или иной вычислительный процесс,
+                  организовать управление различными объектами, и т. п. Язык
+                  программирования отличается от естественных языков тем, что
+                  предназначен для управления ЭВМ, в то время как естественные
+                  языки используются, прежде всего, для общения людей между
+                  собой.
+                </p>
+              </div>
+            </div>
+            <div class="pesontedan">
+              <input id="pesontedan-two" type="checkbox" name="pesontedans" />
+              <label for="pesontedan-two">Язык С++</label>
+              <div class="pesontedan-content">
+                <p>
+                  Широко используется для разработки программного обеспечения,
+                  являясь одним из самых популярных языков программирования.
+                  Область его применения включает создание операционных систем,
+                  разнообразных прикладных программ, драйверов устройств,
+                  приложений для встраиваемых систем, высокопроизводительных
+                  серверов, а также игр. Существует множество реализаций языка
+                  C++, как бесплатных, так и коммерческих и для различных
+                  платформ. Например, на платформе x86 это GCC, Visual C++,
+                  Intel C++ Compiler, Embarcadero C++ Builder и другие. C++
+                  оказал огромное влияние на другие языки программирования, в
+                  первую очередь на Java и C#.
+                </p>
+              </div>
+            </div>
+            <div class="pesontedan">
+              <input id="pesontedan-three" type="checkbox" name="pesontedans" />
+              <label for="pesontedan-three">Язык Java</label>
+              <div class="pesontedan-content">
+                <p>
+                  Строго типизированный объектно-ориентированный язык
+                  программирования общего назначения, разработанный компанией
+                  Sun Microsystems. Разработка ведётся сообществом,
+                  организованным через Java Community Process; язык и основные
+                  реализующие его технологии распространяются по лицензии GPL.
+                  Права на торговую марку принадлежат корпорации Oracle.
+                </p>
+              </div>
+              <div class="pesontedan last-about">
+                <input
+                  id="pesontedan-four"
+                  type="checkbox"
+                  name="pesontedans"
+                />
+                <label for="pesontedan-four">Язык Python</label>
+                <div class="pesontedan-content">
+                  <p>
+                    Высокоуровневый язык программирования общего назначения с
+                    динамической строгой типизацией и автоматическим управлением
+                    памятью, ориентированный на повышение производительности
+                    разработчика, читаемости кода и его качества, а также на
+                    обеспечение переносимости написанных на нём программ. Язык
+                    является полностью объектно-ориентированным в том плане, что
+                    всё является объектами. Необычной особенностью языка
+                    является выделение блоков кода пробельными отступами.
+                    Синтаксис ядра языка минималистичен, за счёт чего на
+                    практике редко возникает необходимость обращаться к
+                    документации. Сам же язык известен как интерпретируемый и
+                    используется в том числе для написания скриптов
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
